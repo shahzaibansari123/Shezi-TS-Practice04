@@ -1,3 +1,3 @@
-const element= document.getElementById('num1') ! as HTMLInputElement
+const element= <HTMLInputElement>document.getElementById('num1')!
 
 element.value
