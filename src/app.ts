@@ -10,3 +10,7 @@ const promise=new Promise ((resolve,reject)=>{
 setTimout(()=>{
 resolve("done")
 }, 2000);
+
+})
+
+
