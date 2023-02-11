@@ -1,3 +1,10 @@
-const element= <HTMLInputElement>document.getElementById('num1')!
+// const element= <HTMLInputElement>document.getElementById('num1')!
 
-element.value
+// element.value
+
+//GENERICS
+// use to pass or assigned additional info in typescript
+
+const promise=new Promise ((resolve,reject)=>{
+
+});
