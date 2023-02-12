@@ -5,7 +5,7 @@
 //GENERICS
 // use to pass or assigned additional info in typescript
 
-const promise=new Promise ((resolve,reject)=>{
+const promise=new Promise<string> Promise ((resolve,reject)=>{
 
 setTimout(()=>{
 resolve("done")
