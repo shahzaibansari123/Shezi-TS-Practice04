@@ -13,4 +13,8 @@ resolve("done")
 
 })
 
+promise.then(data=>{
+data.split(" ");
+}
+
 
