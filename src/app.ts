@@ -17,4 +17,8 @@ promise.then(data=>{
 data.split(" ");
 }
 
+// helping function
 
+function merge(objA, objB){
+
+}
