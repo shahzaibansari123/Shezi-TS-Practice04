@@ -22,3 +22,6 @@ data.split(" ");
 function merge(objA : object, objB : object){
     return {...objA, ...objB}
 }
+
+
+console.log(merge({name: " Shahzaib"},{age: 22}));
