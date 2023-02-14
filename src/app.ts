@@ -19,6 +19,6 @@ data.split(" ");
 
 // helping function
 
-function merge(objA, objB){
-
+function merge(objA : object, objB : object){
+    return {...objA, ...objB}
 }
