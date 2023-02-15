@@ -19,9 +19,9 @@ data.split(" ");
 
 // helping function
 
-function merge(objA : object, objB : object){
+function merge <T, U>(objA : T, objB : U){
     return {...objA, ...objB}
 }
 
 const merged= merge({name: " Shahzaib"},{age: 22})
-console.log(meege.age);
+console.log(merged.age);
