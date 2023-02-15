@@ -23,5 +23,5 @@ function merge(objA : object, objB : object){
     return {...objA, ...objB}
 }
 
-
-console.log(merge({name: " Shahzaib"},{age: 22}));
+const merged= merge({name: " Shahzaib"},{age: 22})
+console.log(meege.age);
