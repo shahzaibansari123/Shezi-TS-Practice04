@@ -25,3 +25,12 @@ function merge <T extends object, U extends object>(objA : T, objB : U){
 
 const merged= merge({name: " Shahzaib"},{age: 22})
 console.log(merged.age);
+
+
+// DECORATORS
+
+class Person{
+name= "Shahzaib"
+}
+
+
