@@ -31,6 +31,11 @@ console.log(merged.age);
 
 class Person{
 name= "Shahzaib"
+
+constructor(){
+console.log("called...!")
+}
+
 }
 
 
