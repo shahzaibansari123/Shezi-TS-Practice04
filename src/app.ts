@@ -29,6 +29,11 @@ console.log(merged.age);
 
 // DECORATORS
 
+
+function Logger(){
+
+}
+
 class Person{
 name= "Shahzaib"
 
