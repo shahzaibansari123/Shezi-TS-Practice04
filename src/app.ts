@@ -35,3 +35,5 @@ class Person {
     console.log("called...!");
   }
 }
+
+const shahzaib= new Person()
