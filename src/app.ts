@@ -26,7 +26,9 @@
 
 // ------------DECORATORS
 
-function Logger() {}
+function Logger() {
+    console.log("Logging....!")
+}
 
 class Person {
   name = "Shahzaib";

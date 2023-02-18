@@ -18,7 +18,9 @@
 // const merged = merge({ name: " Shahzaib" }, { age: 22 });
 // console.log(merged.age);
 // ------------DECORATORS
-function Logger() { }
+function Logger() {
+    console.log("Logging....!");
+}
 class Person {
     constructor() {
         this.name = "Shahzaib";
