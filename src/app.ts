@@ -26,8 +26,8 @@
 
 // ------------DECORATORS
 
-function Logger(constructor: Function) {
-    console.log(constructor)
+function Logger(_: Function) {
+   // console.log(constructor)
 console.log("Logging....!")
 }
 
