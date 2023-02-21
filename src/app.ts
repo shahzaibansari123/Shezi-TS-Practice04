@@ -30,7 +30,7 @@ function Logger(data: string) {
 return function (_: Function){
 
    // console.log(constructor)
-console.log("Logging....!")
+console.log("Logging....=>" + data)
 }
 }
 
