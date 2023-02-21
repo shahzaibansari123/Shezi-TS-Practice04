@@ -26,7 +26,7 @@
 
 // ------------DECORATORS
 
-function Logger() {
+function Logger(data: string) {
 return function (_: Function){
 
    // console.log(constructor)
@@ -34,7 +34,7 @@ console.log("Logging....!")
 }
 }
 
-@Logger
+@Logger("data")
 class Person {
   name = "Shahzaib";
 
