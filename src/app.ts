@@ -34,7 +34,7 @@ console.log("Logging....=>" + data)
 }
 }
 
-function FillHTML(){
+function FillHTML(template: string, id: string){
 return function (_: Function){
 console.log("Logging....=>")
 }
