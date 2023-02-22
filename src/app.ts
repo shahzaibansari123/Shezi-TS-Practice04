@@ -34,6 +34,11 @@ console.log("Logging....=>" + data)
 }
 }
 
+function FillHTML(){
+return function (_: Function){
+console.log("Logging....=>")
+}
+
 @Logger("data")
 class Person {
   name = "Shahzaib";
