@@ -37,6 +37,9 @@ console.log("Logging....=>" + data)
 function FillHTML(template: string, id: string){
 return function (_: Function){
 const el= document.getElementById(id)
+if(el){
+el.innerHtml= template;
+}
 }
 
 @Logger("data")
