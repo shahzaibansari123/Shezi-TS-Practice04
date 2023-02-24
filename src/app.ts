@@ -44,7 +44,7 @@ el.innerHTML= template;
 }
 
 @Logger("data")
-@FillHTML()
+@FillHTML("<b>Template Data </b>", "app")
 class Person {
   name = "Shahzaib";
 
