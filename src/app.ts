@@ -38,11 +38,13 @@ function FillHTML(template: string, id: string){
 return function (_: Function){
 const el= document.getElementById(id)
 if(el){
-el.innerHtml= template;
+el.innerHTML= template;
+}
 }
 }
 
 @Logger("data")
+@FillHTML()
 class Person {
   name = "Shahzaib";
 
