@@ -26,31 +26,40 @@
 
 // ------------DECORATORS
 
-function Logger(data: string) {
-return function (_: Function){
+// function Logger(data: string) {
+// return function (_: Function){
 
-   // console.log(constructor)
-console.log("Logging....=>" + data)
-}
-}
+//    // console.log(constructor)
+// console.log("Logging....=>" + data)
+// }
+// }
 
-function FillHTML(template: string, id: string){
-return function (_: Function){
-const el= document.getElementById(id)
-if(el){
-el.innerHTML= template;
-}
-}
-}
+// function FillHTML(template: string, id: string){
+// return function (_: Function){
+// const el= document.getElementById(id)
+// if(el){
+// el.innerHTML= template;
+// }
+// }
+// }
 
-@Logger("data")
-@FillHTML("<b>Template Data </b>", "app")
-class Person {
-  name = "Shahzaib";
+// @Logger("data")
+// @FillHTML("<b>Template Data </b>", "app")
+// class Person {
+//   name = "Shahzaib";
 
-  constructor() {
-    console.log("called...!");
-  }
+//   constructor() {
+//     console.log("called...!");
+//   }
+// }
+
+// const shahzaib= new Person()
+
+
+// ----------------FUNCTION OVERLOADING 
+
+
+function add(a: Combined , b: Combined){
+
+  
 }
-
-const shahzaib= new Person()
