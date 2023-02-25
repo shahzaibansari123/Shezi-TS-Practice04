@@ -55,11 +55,8 @@
 
 // const shahzaib= new Person()
 
+// ----------------FUNCTION OVERLOADING
 
-// ----------------FUNCTION OVERLOADING 
+type Combined = string | number;
 
-
-function add(a: Combined , b: Combined){
-
-  
-}
+function add(a: Combined, b: Combined) {}
