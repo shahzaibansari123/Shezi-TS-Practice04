@@ -59,4 +59,6 @@
 
 type Combined = string | number;
 
-function add(a: Combined, b: Combined) {}
+function add(a: Combined, b: Combined) {
+return a + b;
+}
