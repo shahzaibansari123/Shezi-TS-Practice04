@@ -60,5 +60,7 @@
 type Combined = string | number;
 
 function add(a: Combined, b: Combined) {
+if(typeOf a === "number" && typeOf b === "number"){
 return a + b;
+}
 }
