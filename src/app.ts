@@ -64,5 +64,7 @@ if(typeOf a === "number" && typeOf b === "number"){
 return a + b;
 }else if(typeOf a === "string" && typeOf b === "string"){
 return a + b;
+}else {
+throw Error("check type boi")
 }
 }
