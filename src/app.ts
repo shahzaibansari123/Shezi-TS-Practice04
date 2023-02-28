@@ -71,3 +71,6 @@ throw Error("check type boi")
 
 add(7,3) 
 //first condition 
+
+add('shah,'zaib')
+//second condition 
