@@ -68,3 +68,6 @@ return a + b;
 throw Error("check type boi")
 }
 }
+
+add(7,3) 
+//first condition 
