@@ -57,9 +57,10 @@
 
 // ----------------FUNCTION OVERLOADING
 
-type Combined = string | number;
+// type Combined = string | number;
 
-function add(a: Combined, b: Combined) {
+function add(a: string, b: string)
+function add(a: number, b: number) {
 if(typeOf a === "number" && typeOf b === "number"){
 return a + b;
 }else if(typeOf a === "string" && typeOf b === "string"){
