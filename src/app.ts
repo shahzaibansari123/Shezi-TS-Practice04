@@ -71,8 +71,8 @@ throw Error("check type boi")
 }
 }
 
-add(7,3) 
+add(7,3).toFixed()
 //first condition 
 
-add('shah,'zaib')
+add('shah,'zaib').split (" ")
 //second condition 
